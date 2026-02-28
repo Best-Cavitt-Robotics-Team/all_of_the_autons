@@ -55,7 +55,7 @@ void autonomous() {
         translate(-13,240,500);
         
 
-        //     break;
+            break;
         case 1: //swowo ayeuupee
         translate(31.5,0,750); //pev 33
         pros::delay(150);
@@ -63,8 +63,8 @@ void autonomous() {
         intake_bottom.move_velocity(-600);
         scraper1.set_value(true);
         scraper2.set_value(true);
-        translate(20.5,90,975); //time pev 1000
-        translate(-32,90,750); //pev -30
+        translate(20.5,90,1000); //time pev 975
+        translate(-32,90,850); //pev -30/750
         intake_bottom.move_velocity(-600);
         intake_top.move_velocity(-600);
         pros::delay(850); //pev 900
@@ -87,14 +87,11 @@ void autonomous() {
         setHeading(0,181.5,500); //pev 182
         pros::delay(100);
         translate(49,181.5,1000);//pev 49/182
-        //PUT SCKRAPAH DOWN
         pros::delay(100);
         scraper1.set_value(true);
         scraper2.set_value(true);
         translate(4, 181.5, 250);//pev 182
         translate(-4, 181.5, 250);//pev 182
-        // scraper1.set_value(false);
-        // scraper2.set_value(false);
         pros::delay(100);
         setHeading(0,135,200); //pev 250
         pros::delay(100);
@@ -102,17 +99,15 @@ void autonomous() {
         ballblock.set_value(true);
         intake_bottom.move_velocity(-300);
         intake_top.move_velocity(-300);
-        pros::delay(200); //pev 300
+        pros::delay(600); //pev 800 but nev was ambitions
         intake_top.move_velocity(0);
         intake_bottom.move_velocity(0); //pev no
         translate(-1,135,200);
         ballblock.set_value(false);
-        // scraper1.set_value(true);
-        // scraper2.set_value(true);
         translate(47,135,900); //pev 39
         setHeading(1,90,200);
         intake_bottom.move_velocity(-600);
-        translate(20,90,900);
+        translate(22,90,900); //pev 23
         translate(-30,90,500);
         intake_bottom.move_velocity(-600);
         intake_top.move_velocity(-600);
@@ -122,35 +117,34 @@ void autonomous() {
         
         
 
-            break;
+        //     break;
 
         case 2: //rite._.
         
-        translate(31,0,1000);
-        pros::delay(200);
+        translate(30,0,750);
+        pros::delay(150);
         setHeading(0,90,250);
-        pros::delay(200);
+        intake_bottom.move_velocity(-600);
         scraper1.set_value(true);
         scraper2.set_value(true);
-        intake_bottom.move_velocity(-600);
         pros::delay(200);
-        translate(20.5,90,1050);
-        translate(-30,90,1000);
+        translate(20,90,1000);
+        translate(-32,90,850);
         intake_top.move_velocity(-600);
         pros::delay(1500);
         intake_bottom.move_velocity(0);
         intake_top.move_velocity(0);
         scraper1.set_value(false);
         scraper2.set_value(false);
-        translate(8.5,90,500);
+        translate(8.5,90,750);
         pros::delay(200);
-        setHeading(0,180,250);
+        setHeading(0,0,250);
         pros::delay(200);
-        translate(11,180,500);
+        translate(10,0,750);
         pros::delay(200);
-        setHeading(0,265,250);
+        setHeading(0,80,250);
         pros::delay(200); 
-        translate(28.5,265,2000);
+        translate(-28.5,80,2000);
 
 
 
