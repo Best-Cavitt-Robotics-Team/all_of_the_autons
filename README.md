@@ -1,6 +1,6 @@
 working 3/4/26
 
-left auton {"lweft} (first case, slot 3):
+left auton {lweft} (first case, slot 3):
 goes to 3 block middle, scores middle goal, gets three in loader, scores in long goal, pushes into control
 
 right auton {better rote} (third case, slot 1):
