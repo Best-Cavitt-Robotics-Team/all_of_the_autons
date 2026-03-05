@@ -1,9 +1,9 @@
 working 2/10/25
 
-left auton {"lweft>.<} (first case, slot 5):
+left auton {"lweft} (first case, slot 3):
 goes to 3 block middle, scores middle goal, gets three in loader, scores in long goal, pushes into control
 
-right auton {rite._.} (third case, slot 4):
+right auton {better rote} (third case, slot 1):
 gets 3 from loader and pushes into control quickls
 
 solo awp {swowo ayeuupee} (second case, slot 5):
