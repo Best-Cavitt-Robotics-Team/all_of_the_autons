@@ -6,7 +6,7 @@ void autonomous() {
     switch (selected_auton){
         case 0: //lweft>.<
         
-        translate(20,0,750); //pev 24
+        translate(18.5,0,750); //pev 19
         pros::delay(100);
         setHeading(0,70,500);
         pros::delay(100);
@@ -25,34 +25,43 @@ void autonomous() {
         pros::delay(1750);
         intake_top.move_velocity (0);
         intake_bottom.move_velocity(0);
-        translate(46,260,1500);
+        translate(49.6,260,1500); //pev 50
         pros::delay(100);
         ballblock.set_value(false);
-        setHeading(0,212,250);//pev
+        setHeading(0,212,250);
         scraper1.set_value(true);
         scraper2.set_value(true);
         translate(-5,212,500);
         pros::delay(100);
+        setHeading(0,212,250); //pev no
         intake_bottom.move_velocity(-600);
         translate(24,212,1000); //prev 24, cuz of trans-5
-        pros::delay(350); //prev 550
+        pros::delay(100); //prev 150
         translate(-34,212,1000);
         intake_top.move_velocity(-600);
         pros::delay(1500);
         scraper1.set_value(false);
-        scraper2.set_value(false);
-        translate(8.5,212,500);
+        scraper2.set_value(false);  
+        setHeading(0,135,500);
         pros::delay(100);
-        setHeading(0,280,250);
+        translate(5,135,500); //pev 6
         pros::delay(100);
-        translate(-12.5,280,500);
+        setHeading(0,200,500); //pev 220
         pros::delay(100);
-        setHeading(0,213,250); //pev
-        translate(-27,213,500);
-        pros::delay(50);
-        setHeading(0,240,250);
-        pros::delay(50);
-        translate(-13,240,500);
+        translate(-17,200,10000); //pev 220
+
+        // translate(8.5,212,500);
+        // pros::delay(100);
+        // setHeading(0,280,250);
+        // pros::delay(100);
+        // translate(-12.5,280,500);
+        // pros::delay(100);
+        // setHeading(0,213,250); //pev
+        // translate(-27,213,500);
+        // pros::delay(50);
+        // setHeading(0,240,250);
+        // pros::delay(50);
+        // translate(-13,240,500);
         
 
             break;
