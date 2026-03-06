@@ -25,7 +25,8 @@ void autonomous() {
         pros::delay(1750);
         intake_top.move_velocity (0);
         intake_bottom.move_velocity(0);
-        translate(49.6,260,1500); //pev 50
+        setHeading(0,250,250); //pev no //260
+        translate(49,250,1500); //pev 49.6
         pros::delay(100);
         ballblock.set_value(false);
         setHeading(0,212,250);
@@ -44,7 +45,7 @@ void autonomous() {
         scraper2.set_value(false);  
         setHeading(0,135,500);
         pros::delay(100);
-        translate(5,135,500); //pev 6
+        translate(6,135,500); //pev 5
         pros::delay(100);
         setHeading(0,200,500); //pev 220
         pros::delay(100);
